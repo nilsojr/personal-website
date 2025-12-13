@@ -1,0 +1,9 @@
+---
+description: Defines the tech stack to be used
+globs:
+alwaysApply: true
+---
+- Use React, Vite, Tailwind CSS, interact.js (for window dragging resizing)
+- Each icon = React component.
+- Each window = React component that you show/hide on click.
+- Taskbar = React component that tracks open windows + shows Start + clock.

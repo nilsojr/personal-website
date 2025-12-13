@@ -1,0 +1,6 @@
+---
+description: Defines the UI look of the website
+globs:
+alwaysApply: true
+---
+- Use CSS to mimics the look & feel of a Windows XP desktop, including background image, icons and sounds

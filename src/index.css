@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Tahoma:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Tahoma', Arial, sans-serif;
+  overflow: hidden;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+/* Custom desktop background */
+.desktop {
+  background-image: url('/src/assets/images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Desktop Icons */
+.desktop-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4px;
+  cursor: pointer;
+  width: 64px;
+  height: 64px;
+  text-align: center;
+  font-size: 10px;
+  color: white;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+}
+
+.desktop-icon:hover {
+  background-color: rgba(0, 123, 255, 0.3);
+  border-radius: 2px;
+}
+
+.desktop-icon:active {
+  background-color: rgba(0, 123, 255, 0.5);
+}
+
+.desktop-icon .icon {
+  font-size: 32px;
+  margin-bottom: 2px;
+}
+
+.desktop-icon .icon-label {
+  font-size: 10px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+/* Taskbar customizations - Windows XP Blue Theme */
+.taskbar {
+  display: flex;
+  align-items: center;
+  padding: 0 4px;
+  height: 32px;
+  background: linear-gradient(to bottom, #4a9eff 0%, #0078d4 50%, #005a9e 100%);
+  border-top: 1px solid #6bb6ff;
+  border-left: 1px solid #6bb6ff;
+  border-right: 1px solid #005a9e;
+  border-bottom: 1px solid #005a9e;
+  box-shadow: inset 0 1px 0 #6bb6ff;
+}
+
+.start-button {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  height: 24px;
+  padding: 0 8px;
+  font-weight: bold;
+  font-size: 11px;
+  background: linear-gradient(to bottom, #90ee90 0%, #32cd32 50%, #228b22 100%);
+  border: 1px solid #228b22;
+  border-top: 1px solid #98fb98;
+  border-left: 1px solid #98fb98;
+  color: white;
+  cursor: pointer;
+  box-shadow: inset 0 1px 0 #98fb98;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.start-button:hover {
+  background: linear-gradient(to bottom, #a0ffa0 0%, #40dd40 50%, #32a832 100%);
+}
+
+.start-button:active {
+  background: linear-gradient(to bottom, #80cc80 0%, #28a828 50%, #1e7a1e 100%);
+  border-top: 1px solid #228b22;
+  border-left: 1px solid #228b22;
+  border-bottom: 1px solid #98fb98;
+  border-right: 1px solid #98fb98;
+  box-shadow: inset 0 1px 0 #228b22;
+}
+
+.taskbar-item {
+  padding: 2px 8px;
+  font-size: 11px;
+  border: 1px solid #005a9e;
+  border-top: 1px solid #6bb6ff;
+  border-left: 1px solid #6bb6ff;
+  background: linear-gradient(to bottom, #4a9eff 0%, #0078d4 50%, #005a9e 100%);
+  color: white;
+  cursor: pointer;
+  box-shadow: inset 0 1px 0 #6bb6ff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.taskbar-item:hover {
+  background: linear-gradient(to bottom, #5aaeff 0%, #1088e4 50%, #106aae 100%);
+}
+
+.taskbar-item.active {
+  background: linear-gradient(to bottom, #ffffff 0%, #f0f0f0 50%, #e0e0e0 100%);
+  color: black;
+  border-top: 1px solid #ffffff;
+  border-left: 1px solid #ffffff;
+  border-right: 1px solid #808080;
+  border-bottom: 1px solid #808080;
+  box-shadow: inset 0 1px 0 #ffffff;
+  text-shadow: none;
+}
+
+.system-tray {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  padding: 0 4px;
+  background: linear-gradient(to bottom, #4a9eff 0%, #0078d4 50%, #005a9e 100%);
+  /* border: 1px solid #005a9e;
+  border-top: 1px solid #6bb6ff;
+  border-left: 1px solid #6bb6ff;
+  box-shadow: inset 0 1px 0 #6bb6ff; */
+}
+
+.tray-icon {
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  padding: 1px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  color: white;
+}
+
+.tray-icon:hover {
+  border: 1px solid #6bb6ff;
+  background: linear-gradient(to bottom, #5aaeff 0%, #1088e4 50%, #106aae 100%);
+}
+
+.clock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  font-size: 11px;
+  padding: 2px 6px;
+  /* border: 1px solid #005a9e;
+  border-top: 1px solid #6bb6ff;
+  border-left: 1px solid #6bb6ff; */
+  background: linear-gradient(to bottom, #4a9eff 0%, #0078d4 50%, #005a9e 100%);
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  /* box-shadow: inset 0 1px 0 #6bb6ff; */
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.clock:hover {
+  background: linear-gradient(to bottom, #5aaeff 0%, #1088e4 50%, #106aae 100%);
+}
+
+/* Window positioning */
+.window {
+  position: absolute;
+}
+
+/* Scrollbar styling for windows */
+.window-body::-webkit-scrollbar {
+  width: 16px;
+}
+
+.window-body::-webkit-scrollbar-track {
+  background: #c0c0c0;
+  border: 1px solid #808080;
+}
+
+.window-body::-webkit-scrollbar-thumb {
+  background: #808080;
+  border: 1px solid #404040;
+}
+
+.window-body::-webkit-scrollbar-thumb:hover {
+  background: #606060;
+}
+
+/* Ensure window body doesn't overflow */
+.window-body {
+  box-sizing: border-box;
+  padding: 8px;
+}
