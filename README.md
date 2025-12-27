@@ -125,9 +125,9 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## Contact
 
-- **Email**: nilso.baseggio@email.com
-- **LinkedIn**: [linkedin.com/in/nilsobaseggio](https://linkedin.com/in/nilsobaseggio)
-- **GitHub**: [github.com/nilsobaseggio](https://github.com/nilsobaseggio)
+- **Email**: nilsojr@gmail.com
+- **LinkedIn**: [linkedin.com/in/nilso-baseggio-junior](https://linkedin.com/in/nilso-baseggio-junior)
+- **GitHub**: [github.com/nilsojr](https://github.com/nilsojr)
 
 ---
 

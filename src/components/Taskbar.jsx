@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import startIcon from '../assets/images/XP_Button_ClearType_1.png'
 
 const Taskbar = ({ openWindows, activeWindow, onOpenWindow, onSetActiveWindow }) => {
   const [currentTime, setCurrentTime] = useState(new Date())
@@ -37,17 +38,13 @@ const Taskbar = ({ openWindows, activeWindow, onOpenWindow, onSetActiveWindow })
 
   return (
     <div className="taskbar fixed bottom-0 left-0 right-0 z-50">
+
+
       {/* Start Button */}
-      <button 
-        className="start-button"
-        onClick={() => {
-          // Could add start menu functionality here
-          console.log('Start button clicked')
-        }}
-      >
-        <span>🪟</span>
-        <span>start</span>
+      <button className="start-button" aria-label="Start">
+        <img src={startIcon} alt="Start" className="start-button-img" />
       </button>
+
 
       {/* Taskbar Items */}
       <div className="flex-1 flex gap-1 px-2">

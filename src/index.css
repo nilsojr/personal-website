@@ -56,6 +56,15 @@ body {
   margin-bottom: 2px;
 }
 
+/* Image icon support for desktop icons */
+.desktop-icon .icon img,
+.desktop-icon .desktop-icon-img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  margin-bottom: 2px;
+}
+
 .desktop-icon .icon-label {
   font-size: 10px;
   line-height: 1.2;
@@ -77,25 +86,31 @@ body {
 }
 
 .start-button {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-  height: 24px;
-  padding: 0 8px;
+  display: inline-flex;
+  align-items: right;
+  justify-content: right;
+  gap: 0;
+  height: 100%; /* match more of the taskbar height */
+  width: fit-content; /* square-ish button */
+  padding: 0px;
   font-weight: bold;
   font-size: 11px;
-  background: linear-gradient(to bottom, #90ee90 0%, #32cd32 50%, #228b22 100%);
-  border: 1px solid #228b22;
-  border-top: 1px solid #98fb98;
-  border-left: 1px solid #98fb98;
+  border: none;
+  background: none;
+  /* border: 1px solid #228b22; */
+  /* border-top: 1px solid #98fb98; */
+  /* border-left: 1px solid #98fb98; */
   color: white;
   cursor: pointer;
-  box-shadow: inset 0 1px 0 #98fb98;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  /* box-shadow: inset 0 1px 0 #98fb98; */
+  /* text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); */
+  /* transition: transform 120ms ease, box-shadow 120ms ease, background 120ms ease; */
 }
 
 .start-button:hover {
   background: linear-gradient(to bottom, #a0ffa0 0%, #40dd40 50%, #32a832 100%);
+  transform: translateY(-1px) scale(1.02);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.18), inset 0 1px 0 #98fb98;
 }
 
 .start-button:active {
@@ -105,11 +120,27 @@ body {
   border-bottom: 1px solid #98fb98;
   border-right: 1px solid #98fb98;
   box-shadow: inset 0 1px 0 #228b22;
+  transform: translateY(0.5px) scale(0.995);
+}
+
+/* Keyboard focus styles for accessibility */
+.start-button:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255,255,255,0.08), 0 0 0 5px rgba(24,144,255,0.22);
+}
+
+/* Start button image sizing */
+.start-button-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* or `cover` if you want no empty space */
+  display: block;
+  border-radius: 0px;
 }
 
 .taskbar-item {
   padding: 2px 8px;
-  font-size: 11px;
+  font-size: 12px;
   border: 1px solid #005a9e;
   border-top: 1px solid #6bb6ff;
   border-left: 1px solid #6bb6ff;
@@ -193,7 +224,7 @@ body {
 }
 
 /* Scrollbar styling for windows */
-.window-body::-webkit-scrollbar {
+/* .window-body::-webkit-scrollbar {
   width: 16px;
 }
 
@@ -209,10 +240,18 @@ body {
 
 .window-body::-webkit-scrollbar-thumb:hover {
   background: #606060;
-}
+} */
 
 /* Ensure window body doesn't overflow */
 .window-body {
   box-sizing: border-box;
   padding: 8px;
+  background-color: white;
+  border-radius: 0.5rem;
+  border: 1px solid #a0a0a0;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.window {  
+  padding-bottom: 8px;
 }

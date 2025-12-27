@@ -13,7 +13,7 @@
     "interactjs": "^1.10.11",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "xp.css": "^0.2.6"
+    "xp.css": "^0.3.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
@@ -29,4 +29,3 @@
     "vite": "^5.2.0"
   }
 }
-

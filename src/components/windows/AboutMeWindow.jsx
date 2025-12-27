@@ -8,20 +8,20 @@ const AboutMeWindow = () => {
           NB
         </div>
         <div>
-          <h2 className="text-lg font-bold text-blue-600">Nilso Baseggio</h2>
-          <p className="text-sm text-gray-600">Software Developer & Technology Enthusiast</p>
+          <h2 className="text-lg font-bold text-blue-600">Nilso José Baseggio Junior</h2>
+          <p className="text-sm text-gray-600">Senior Software Developer & Technology Enthusiast</p>
         </div>
       </div>
-      
+
       <div className="space-y-3">
         <h3 className="font-bold text-blue-600">About Me</h3>
         <p className="text-sm leading-relaxed">
-          Hello! I'm Nilso Baseggio, a passionate software developer with a love for creating 
-          innovative solutions and exploring new technologies. I enjoy building web applications, 
-          working with modern frameworks, and continuously learning about the latest trends in 
+          Hello! I'm Nilso Baseggio, a passionate software developer with a love for creating
+          innovative solutions and exploring new technologies. I enjoy building web applications,
+          working with modern frameworks, and continuously learning about the latest trends in
           software development.
         </p>
-        
+
         <h3 className="font-bold text-blue-600">Skills & Technologies</h3>
         <div className="grid grid-cols-2 gap-2 text-sm">
           <div>
@@ -43,7 +43,7 @@ const AboutMeWindow = () => {
             </ul>
           </div>
         </div>
-        
+
         <h3 className="font-bold text-blue-600">Education</h3>
         <p className="text-sm">
           Computer Science Degree with focus on Software Engineering and Web Development

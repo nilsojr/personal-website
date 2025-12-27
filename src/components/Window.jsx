@@ -123,7 +123,7 @@ const Window = ({ id, title, children, isActive, onClose, onActivate }) => {
       </div>
 
       {/* Window Content */}
-      <div className="window-body" style={{ height: 'calc(100% - 30px)', overflow: 'auto' }}>
+      <div className="window-body" style={{ height: 'calc(100% - 30px)', overflow: 'auto'}}>
         {children}
       </div>
     </div>
