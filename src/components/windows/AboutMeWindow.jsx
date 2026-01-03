@@ -25,28 +25,28 @@ const AboutMeWindow = () => {
         <h3 className="font-bold text-blue-600">Skills & Technologies</h3>
         <div className="grid grid-cols-2 gap-2 text-sm">
           <div>
-            <strong>Frontend:</strong>
+            <strong>Backend:</strong>
             <ul className="list-disc list-inside ml-2">
-              <li>React & React Native</li>
-              <li>JavaScript & TypeScript</li>
-              <li>HTML5 & CSS3</li>
-              <li>Tailwind CSS</li>
+              <li>.Net 3.5+</li>
+              <li>Java 17+</li>
+              <li>All major SQL databases</li>
+              <li>RESTful APIs</li>
             </ul>
           </div>
           <div>
-            <strong>Backend:</strong>
+            <strong>Frontend:</strong>
             <ul className="list-disc list-inside ml-2">
-              <li>Node.js & Express</li>
-              <li>Python & Django</li>
-              <li>SQL & NoSQL Databases</li>
-              <li>RESTful APIs</li>
+              <li>Angular</li>
+              <li>JavaScript & TypeScript</li>
+              <li>HTML5 & CSS</li>
+              <li>Tailwind CSS</li>
             </ul>
           </div>
         </div>
 
         <h3 className="font-bold text-blue-600">Education</h3>
         <p className="text-sm">
-          Computer Science Degree with focus on Software Engineering and Web Development
+          Bachelor in Information Systems
         </p>
       </div>
     </div>
