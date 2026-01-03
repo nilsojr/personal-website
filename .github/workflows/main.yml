@@ -30,4 +30,4 @@ jobs:
         username: ${{ secrets.VM_USER }}
         key: ${{ secrets.VM_SSH_KEY }}
         source: "dist/*"
-        target: ${{ secrets.DEPLOY_PATH }
+        target: ${{ secrets.DEPLOY_PATH }}
