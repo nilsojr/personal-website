@@ -31,3 +31,4 @@ jobs:
         key: ${{ secrets.VM_SSH_KEY }}
         source: "dist/*"
         target: ${{ secrets.DEPLOY_PATH }}
+        strip_components: 1
