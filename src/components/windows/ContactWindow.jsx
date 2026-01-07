@@ -4,38 +4,38 @@ const ContactWindow = () => {
   const contactMethods = [
     {
       platform: "Email",
-      value: "nilso.baseggio@email.com",
+      value: "nilsojr@gmail.com",
       icon: "📧",
       link: "mailto:nilso.baseggio@email.com",
       description: "Best way to reach me for professional inquiries"
     },
     {
       platform: "LinkedIn",
-      value: "linkedin.com/in/nilsobaseggio",
+      value: "linkedin.com/in/nilso-baseggio-junior",
       icon: "💼",
-      link: "https://linkedin.com/in/nilsobaseggio",
+      link: "https://www.linkedin.com/in/nilso-baseggio-junior/",
       description: "Connect with me on LinkedIn for professional networking"
     },
     {
-      platform: "GitHub",
-      value: "github.com/nilsobaseggio",
+      platform: "Portfolio",
+      value: "billminder.com.br",
+      icon: "🌐",
+      link: "https://billminder.com.br",
+      description: "Visit my main portfolio website - Angular & .Net"
+    },
+    {
+      platform: "GitHub - Main projects",
+      value: "github.com/Island-Software",
       icon: "🐙",
-      link: "https://github.com/nilsobaseggio",
+      link: "https://github.com/Island-Software",
       description: "Check out my code repositories and contributions"
     },
     {
-      platform: "Twitter",
-      value: "@nilsobaseggio",
-      icon: "🐦",
-      link: "https://twitter.com/nilsobaseggio",
-      description: "Follow me for tech updates and thoughts"
-    },
-    {
-      platform: "Portfolio",
-      value: "nilsobaseggio.com",
-      icon: "🌐",
-      link: "https://nilsobaseggio.com",
-      description: "Visit my main portfolio website"
+      platform: "GitHub - Miscellaneous",
+      value: "github.com/nilsojr",
+      icon: "🐙",
+      link: "https://github.com/nilsojr",
+      description: "Check out my code repositories and contributions"
     }
   ]
 
@@ -76,7 +76,7 @@ const ContactWindow = () => {
         <h3 className="font-bold text-gray-700 mb-2">Response Time</h3>
         <p className="text-sm text-gray-600">
           I typically respond to emails within 24 hours. For urgent matters, 
-          feel free to reach out on LinkedIn or Twitter.
+          feel free to reach out on LinkedIn.
         </p>
       </div>
     </div>

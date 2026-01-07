@@ -3,38 +3,33 @@ import React from 'react'
 const HobbiesWindow = () => {
   const hobbies = [
     {
-      title: "Photography",
-      description: "I love capturing moments and exploring different photography techniques. From landscape to street photography, I enjoy experimenting with composition and lighting.",
-      icon: "📸",
-      details: ["Digital Photography", "Photo Editing", "Street Photography", "Nature Photography"]
+      title: "Learning",
+      description: "Yes, this is a hobby for me! When I'm not doing any of the hobbies below, I like to pass my time learning something new, independently of the subject.",
+      icon: "✍",
+      details: []
     },
     {
       title: "Gaming",
-      description: "Gaming is both a hobby and a way to stay connected with technology trends. I enjoy both indie games and AAA titles, as well as game development.",
+      description: `Gaming is both a hobby and a way to stay connected with technology trends. I enjoy both indie games and AAA titles, as well as game development.
+        Simulation, RPG and Strategy games are my favorite genres.`,
       icon: "🎮",
       details: ["PC Gaming", "Game Development", "Indie Games", "Retro Gaming"]
     },
     {
       title: "Reading",
-      description: "I'm an avid reader, particularly interested in technology books, science fiction, and personal development. I believe continuous learning is essential.",
+      description: "I'm an avid reader, particularly interested in technology books, science fiction and adventure. I believe continuous learning is essential, along with good sto",
       icon: "📚",
-      details: ["Tech Books", "Sci-Fi Novels", "Programming", "Biographies"]
-    },
-    {
-      title: "Cooking",
-      description: "Cooking is my creative outlet outside of coding. I enjoy experimenting with different cuisines and techniques, especially Italian and Asian dishes.",
-      icon: "👨‍🍳",
-      details: ["Italian Cuisine", "Asian Cooking", "Baking", "Food Photography"]
+      details: ["Tech Books", "Sci-Fi Novels", "Programming"]
     },
     {
       title: "Hiking & Nature",
       description: "Spending time in nature helps me recharge and find inspiration. I enjoy hiking, camping, and exploring new trails and natural landscapes.",
       icon: "🥾",
-      details: ["Mountain Hiking", "Camping", "Nature Photography", "Trail Running"]
+      details: ["Mountain Hiking", "Camping", "Nature Photography"]
     },
     {
       title: "Music",
-      description: "Music is a big part of my life. I enjoy discovering new artists, attending concerts, and occasionally playing guitar and piano.",
+      description: "Music is a big part of my life. I enjoy discovering new artists, attending concerts, and occasionally playing piano.",
       icon: "🎵",
       details: ["Guitar", "Piano", "Concert Going", "Music Discovery"]
     }
@@ -76,14 +71,6 @@ const HobbiesWindow = () => {
           I believe that having diverse interests and hobbies makes me a better developer. 
           These activities help me stay creative, maintain work-life balance, and often 
           provide fresh perspectives that I can apply to my professional work.
-        </p>
-      </div>
-      
-      <div className="mt-4 p-3 bg-yellow-50 border border-yellow-200 rounded">
-        <h3 className="font-bold text-yellow-600 mb-2">Fun Fact</h3>
-        <p className="text-sm text-gray-700">
-          I once combined my love for photography and coding by creating a web app 
-          that helps photographers plan their shoots based on weather and lighting conditions!
         </p>
       </div>
     </div>

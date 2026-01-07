@@ -3,42 +3,27 @@ import React from 'react'
 const ProjectsWindow = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "Full-stack e-commerce solution with React frontend and Node.js backend. Features include user authentication, payment processing, and admin dashboard.",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe API", "JWT"],
-      github: "https://github.com/nilsobaseggio/ecommerce-platform",
-      demo: "https://demo-ecommerce.nilsobaseggio.com",
-      status: "Completed"
-    },
-    {
-      title: "Task Management App",
-      description: "Collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-      technologies: ["React", "Socket.io", "Express", "PostgreSQL", "Redis"],
-      github: "https://github.com/nilsobaseggio/task-manager",
-      demo: "https://tasks.nilsobaseggio.com",
+      title: "Bills & Receivings Management platform",
+      description: "Full-stack solution with Angular frontend and .Net 8+ backend. Features include user authentication, bills & receivings management and a reminder feature for bills near due date (in progress).",
+      technologies: ["Angular", ".Net 8", "PostgreSQL", "Azure", "AWS", "Magalu Cloud", "JWT"],
+      github: "https://github.com/orgs/Island-Software/repositories",
+      demo: "https://billminder.com.br",
       status: "In Progress"
     },
     {
-      title: "Weather Dashboard",
-      description: "Interactive weather dashboard with location-based forecasts, historical data visualization, and customizable widgets.",
-      technologies: ["Vue.js", "Chart.js", "OpenWeather API", "PWA"],
-      github: "https://github.com/nilsobaseggio/weather-dashboard",
-      demo: "https://weather.nilsobaseggio.com",
-      status: "Completed"
-    },
-    {
-      title: "Social Media Analytics Tool",
-      description: "Analytics dashboard for social media metrics with data visualization, reporting features, and automated insights.",
-      technologies: ["React", "D3.js", "Python", "FastAPI", "PostgreSQL"],
-      github: "https://github.com/nilsobaseggio/social-analytics",
-      demo: null,
-      status: "Planning"
+      title: "Soccer Madness",
+      description: `Multiplayer online soccer game with real-time gameplay, player stats, and leaderboards. Built with Unity.
+        Project is private, if you want to know more about it please contact me.`,
+      technologies: ["Unity Engine"],
+      github: "https://gitlab.com/island-software/soccer_madness",
+      demo: "https://island-games-studio.itch.io/soccer-madness",
+      status: "In Progress"
     },
     {
       title: "Personal Portfolio Website",
       description: "This Windows XP-themed portfolio website showcasing my work and skills in a nostalgic desktop environment.",
       technologies: ["React", "Vite", "Tailwind CSS", "Interact.js"],
-      github: "https://github.com/nilsobaseggio/nilso-xp",
+      github: "https://github.com/nilsojr/personal-website",
       demo: "https://nilsobaseggio.com",
       status: "Completed"
     }
@@ -111,12 +96,12 @@ const ProjectsWindow = () => {
         <p className="text-sm text-gray-600">
           Check out my GitHub profile for more projects, contributions, and open-source work: 
           <a 
-            href="https://github.com/nilsobaseggio" 
+            href="https://github.com/nilsojr" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-blue-600 hover:underline ml-1"
           >
-            github.com/nilsobaseggio
+            github.com/nilsojr
           </a>
         </p>
       </div>
