@@ -144,11 +144,12 @@ body {
   border: 1px solid #005a9e;
   border-top: 1px solid #6bb6ff;
   border-left: 1px solid #6bb6ff;
-  background: linear-gradient(to bottom, #4a9eff 0%, #0078d4 50%, #005a9e 100%);
+  border-radius: 10%;
+  background: #3980F4;
   color: white;
   cursor: pointer;
   box-shadow: inset 0 1px 0 #6bb6ff;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  width: 8rem;
 }
 
 .taskbar-item:hover {
@@ -156,15 +157,13 @@ body {
 }
 
 .taskbar-item.active {
-  background: linear-gradient(to bottom, #9b0404 0%, #f0f0f0 50%, #e0e0e0 100%);
-  color: black;
-  border-top: 1px solid #ffffff;
-  border-left: 1px solid #ffffff;
-  border-right: 1px solid #808080;
-  border-bottom: 1px solid #808080;
-  box-shadow: inset 0 1px 0 #ffffff;
-  text-shadow: none;
-}
+  color: white;
+  border: 1px solid #005a9e;
+  border-top: 1px solid #6bb6ff;
+  border-left: 1px solid #6bb6ff;
+  background: #1A50B8 !important;
+} 
+
 
 .system-tray {
   display: flex;
@@ -256,10 +255,3 @@ body {
   padding-bottom: 8px;
 }
 
-button:not(:disabled).active, button:not(:disabled):active {
-  color: white;
-  border: 1px solid #005a9e;
-  border-top: 1px solid #6bb6ff;
-  border-left: 1px solid #6bb6ff;
-  background: linear-gradient(180deg, #1A50B8, #1A50B8 8%, #1A50B8 94%, #1A50B8);
-}

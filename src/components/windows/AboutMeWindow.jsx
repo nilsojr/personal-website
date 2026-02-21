@@ -4,12 +4,13 @@ const AboutMeWindow = () => {
   return (
     <div className="p-4 space-y-4">
       <div className="flex items-center gap-4">
-        <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center text-white text-2xl font-bold">
-          NB
+        <div className="w-32 h-32 rounded-full overflow-hidden">
+          <img src="src/assets/images/profile.jpg" alt="Profile" className="w-full h-full object-cover rounded-full" />
         </div>
         <div>
           <h2 className="text-lg font-bold text-blue-600">Nilso José Baseggio Junior</h2>
-          <p className="text-sm text-gray-600">Senior Software Developer & Technology Enthusiast</p>
+          <p className="text-sm font-bold text-gray-800">Senior Software Developer & Technology Enthusiast</p>
+          <p className="text-sm text-gray-600">📍 Paraná, Brazil</p>
         </div>
       </div>
 

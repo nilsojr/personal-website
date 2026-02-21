@@ -1,8 +1,8 @@
 import React from 'react'
 import DesktopIcon from './DesktopIcon'
 import myComputerIcon from '../assets/images/My Computer.png'
-import workExperienceIcon from '../assets/images/Notepad.png'
-import myProjectsIcon from '../assets/images/My Documents.png'
+import workExperienceIcon from '../assets/images/Briefcase.png'
+import myProjectsIcon from '../assets/images/Programs.png'
 import contactIcon from '../assets/images/Windows Messenger.png'
 import myHobbiesIcon from '../assets/images/Solitaire.png'
 import Window from './Window'
@@ -26,7 +26,7 @@ const Desktop = ({ openWindows, activeWindow, onOpenWindow, onCloseWindow, onSet
   return (
     <div className="desktop h-full w-full relative overflow-hidden">
       {/* Desktop Icons */}
-      <div className="absolute top-4 left-4 flex flex-col gap-4">
+      <div className="absolute top-4 left-4 flex flex-col gap-6">
         {desktopIcons.map((icon) => (
           <DesktopIcon
             key={icon.id}
