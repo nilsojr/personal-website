@@ -62,17 +62,17 @@ const WorkExperienceWindow = () => {
 
   return (
     <div className="p-4 space-y-4">
-      <h2 className="text-lg font-bold text-blue-600">Work Experience</h2>
+      <h2 className="text-xl font-bold text-blue-600">Work Experience</h2>
       
       <div className="space-y-4">
         {experiences.map((exp, index) => (
           <div key={index} className="border-l-4 border-blue-500 pl-4 pb-4">
             <div className="flex justify-between items-start mb-2">
               <div>
-                <h3 className="font-bold text-gray-800">{exp.title}</h3>
-                <p className="text-sm text-blue-600 font-semibold">{exp.company}</p>
+                <h3 className="text-lg text-gray-800">{exp.title}</h3>
+                <p className="text-sm text-blue-600">{exp.company}</p>
               </div>
-              <span className="text-xs text-gray-500 bg-gray-100 px-2 py-1 rounded">
+              <span className="text-xs text-gray-800 bg-gray-100 px-2 py-1 rounded">
                 {exp.period}
               </span>
             </div>
@@ -95,15 +95,15 @@ const WorkExperienceWindow = () => {
         ))}
       </div>
       
-      <div className="mt-6 p-3 bg-blue-50 border border-blue-200 rounded">
+      {/* <div className="mt-6 p-3 bg-blue-50 border border-blue-200 rounded">
         <h3 className="font-bold text-blue-600 mb-2">Key Achievements</h3>
         <ul className="text-sm space-y-1">
-          {/* <li>• Led a team of 5 developers in delivering a major web application</li>
+          <li>• Led a team of 5 developers in delivering a major web application</li>
           <li>• Improved application performance by 40% through code optimization</li>
           <li>• Implemented CI/CD pipelines reducing deployment time by 60%</li>
-          <li>• Mentored 3 junior developers who successfully advanced in their careers</li> */}
+          <li>• Mentored 3 junior developers who successfully advanced in their careers</li>
         </ul>
-      </div>
+      </div> */}
     </div>
   )
 }

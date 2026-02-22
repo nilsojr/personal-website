@@ -21,7 +21,7 @@ const ContactWindow = () => {
       value: "billminder.com.br",
       icon: "🌐",
       link: "https://billminder.com.br",
-      description: "Visit my main portfolio website - Angular & .Net"
+      description: "Visit my main portfolio project website - Angular front-end & .Net back-end"
     },
     {
       platform: "HackerRank",
