@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react'
-import startIcon from '/assets/images/XP_Button_ClearType_1.png'
 
 const Taskbar = ({ openWindows, activeWindow, onOpenWindow, onSetActiveWindow }) => {
   const [currentTime, setCurrentTime] = useState(new Date())
@@ -42,7 +41,7 @@ const Taskbar = ({ openWindows, activeWindow, onOpenWindow, onSetActiveWindow })
 
       {/* Start Button */}
       <button className="start-button" aria-label="Start">
-        <img src={startIcon} alt="Start" className="start-button-img" />
+        <img src="/assets/XP_Button_ClearType_1.png" alt="Start" className="start-button-img" />
       </button>
 
 

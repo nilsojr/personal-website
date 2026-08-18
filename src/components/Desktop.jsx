@@ -1,10 +1,5 @@
 import React from 'react'
 import DesktopIcon from './DesktopIcon'
-import myComputerIcon from '/assets/images/My Computer.png'
-import workExperienceIcon from '/assets/images/Briefcase.png'
-import myProjectsIcon from '/assets/images/Programs.png'
-import contactIcon from '/assets/images/Windows Messenger.png'
-import myHobbiesIcon from '/assets/images/Solitaire.png'
 import Window from './Window'
 import {
   AboutMeWindow,
@@ -16,11 +11,11 @@ import {
 
 const Desktop = ({ openWindows, activeWindow, onOpenWindow, onCloseWindow, onSetActiveWindow }) => {
   const desktopIcons = [
-    { id: 'about-me', name: 'About Me', iconSrc: myComputerIcon, window: AboutMeWindow },
-    { id: 'work-experience', name: 'Work Experience', iconSrc: workExperienceIcon, window: WorkExperienceWindow },
-    { id: 'projects', name: 'My Projects', iconSrc: myProjectsIcon, window: ProjectsWindow },
-    { id: 'contact', name: 'Contact Info', iconSrc: contactIcon, window: ContactWindow },
-    { id: 'hobbies', name: 'My Hobbies', iconSrc: myHobbiesIcon, window: HobbiesWindow },
+    { id: 'about-me', name: 'About Me', iconSrc: '/assets/My Computer.png', window: AboutMeWindow },
+    { id: 'work-experience', name: 'Work Experience', iconSrc: '/assets/Briefcase.png', window: WorkExperienceWindow },
+    { id: 'projects', name: 'My Projects', iconSrc: '/assets/Programs.png', window: ProjectsWindow },
+    { id: 'contact', name: 'Contact Info', iconSrc: '/assets/Windows Messenger.png', window: ContactWindow },
+    { id: 'hobbies', name: 'My Hobbies', iconSrc: '/assets/Solitaire.png', window: HobbiesWindow },
   ]
 
   return (
