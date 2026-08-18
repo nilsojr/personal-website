@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import startIcon from '../assets/images/XP_Button_ClearType_1.png'
+import startIcon from '/assets/images/XP_Button_ClearType_1.png'
 
 const Taskbar = ({ openWindows, activeWindow, onOpenWindow, onSetActiveWindow }) => {
   const [currentTime, setCurrentTime] = useState(new Date())

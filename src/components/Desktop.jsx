@@ -1,10 +1,10 @@
 import React from 'react'
 import DesktopIcon from './DesktopIcon'
-import myComputerIcon from '../assets/images/My Computer.png'
-import workExperienceIcon from '../assets/images/Briefcase.png'
-import myProjectsIcon from '../assets/images/Programs.png'
-import contactIcon from '../assets/images/Windows Messenger.png'
-import myHobbiesIcon from '../assets/images/Solitaire.png'
+import myComputerIcon from '/assets/images/My Computer.png'
+import workExperienceIcon from '/assets/images/Briefcase.png'
+import myProjectsIcon from '/assets/images/Programs.png'
+import contactIcon from '/assets/images/Windows Messenger.png'
+import myHobbiesIcon from '/assets/images/Solitaire.png'
 import Window from './Window'
 import {
   AboutMeWindow,
