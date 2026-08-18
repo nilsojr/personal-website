@@ -5,7 +5,7 @@ const AboutMeWindow = () => {
     <div className="p-4 space-y-4">
       <div className="flex items-center gap-4">
         <div className="w-32 h-32 rounded-full overflow-hidden">
-          <img src="src/assets/images/profile.jpg" alt="Profile" className="w-full h-full object-cover rounded-full" />
+          <img src="/assets/profile.jpg" alt="Profile" className="w-full h-full object-cover rounded-full" />
         </div>
         <div>
           <h2 className="text-lg font-bold text-blue-600">Nilso José Baseggio Junior</h2>

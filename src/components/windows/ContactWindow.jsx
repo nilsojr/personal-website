@@ -12,7 +12,7 @@ const ContactWindow = () => {
     {
       platform: "LinkedIn",
       value: "linkedin.com/in/nilso-baseggio-junior",
-      iconImage: "src/assets/images/linkedin.png",
+      iconImage: "/assets/linkedin.png",
       link: "https://www.linkedin.com/in/nilso-baseggio-junior/",
       description: "Connect with me on LinkedIn for professional networking"
     },
@@ -26,21 +26,21 @@ const ContactWindow = () => {
     {
       platform: "HackerRank",
       value: "hackerank.com/nilsojr",
-      iconImage: "src/assets/images/hackerrank.png",
+      iconImage: "/assets/hackerrank.png",
       link: "https://hackerrank.com/profile/nilsojr",
       description: "My HackerRank profile with coding challenges and achievements"
     },
     {
       platform: "GitHub - Main projects",
       value: "github.com/Island-Software",
-      iconImage: "src/assets/images/github_black.png",
+      iconImage: "/assets/github_black.png",
       link: "https://github.com/Island-Software",
       description: "Check out my code repositories and contributions"
     },
     {
       platform: "GitHub - Miscellaneous",
       value: "github.com/nilsojr",
-      iconImage: "src/assets/images/github_black.png",
+      iconImage: "/assets/github_black.png",
       link: "https://github.com/nilsojr",
       description: "Check out my code repositories and contributions"
     }
